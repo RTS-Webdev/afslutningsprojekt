@@ -50,8 +50,8 @@ export default function Slider() {
                 </header>
                 <figure className="flex justify-center">
                     <Image
-                        src="/1.svg"
-                        alt="Julebillede"
+                        src={`/img/${currentIndex + 1}.png`}
+                        alt="Slider Image"
                         width={600}
                         height={400}
                         className="object-contain rounded-lg"
