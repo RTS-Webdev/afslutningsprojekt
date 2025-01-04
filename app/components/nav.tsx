@@ -14,7 +14,7 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="w-full flex items-center justify-between p-4 md:p-6 bg-transparent bg-inherit/30 backdrop-blur-sm">
+        <nav className="w-full flex items-center justify-between p-4 md:p-6 bg-transparent bg-white">
             <Link href="/" className="text-2xl font-bold dark:text-white z-50 md:p-8">
                 <Image
                     src={"/logo.png"}
