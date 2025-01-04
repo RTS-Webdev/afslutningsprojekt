@@ -15,7 +15,7 @@ export default function Navbar() {
 
     return (
         <nav className="w-full flex items-center justify-between p-4 md:p-6 bg-transparent bg-inherit/30 backdrop-blur-sm">
-            <Link href="/" className="text-2xl font-bold dark:text-white z-50 p-8">
+            <Link href="/" className="text-2xl font-bold dark:text-white z-50 md:p-8">
                 <Image
                     src={"/logo.png"}
                     alt="Byens Hus Logo"
@@ -38,7 +38,7 @@ export default function Navbar() {
                     <div key={item.title} className="relative group">
                         <Link
                             href={item.href}
-                            className="hover:bg-gray-100 hover:bg-opacity-10 hover:text-neutral-300 rounded-full px-4 py-2 transition-colors flex items-center text-xl"
+                            className="hover:text-gray-600 py-1 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-gray-600 after:transition-all after:duration-300 scroll-smooth"
                         >
                             {item.title.toUpperCase()}
                         </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
             {/* Mobile Menu Dropdown */}
             <div
                 className={`fixed right-0 top-0 min-h-screen w-full transition-transform duration-300 ease-in-out ${isMenuOpen ? "translate-x-0" : "translate-x-full"
-                    } md:hidden bg-inherit/30 md:backdrop-blur-sm`}
+                    } md:hidden bg-white`}
             >
                 <div className="flex flex-col justify-between h-full">
                     <div className="flex flex-col pt-24 px-6">
