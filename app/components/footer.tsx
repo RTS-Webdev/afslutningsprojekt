@@ -77,11 +77,11 @@ export default function Footer() {
                 </section>
 
                 {/* Logo */}
-                <section className="flex justify-start md:justify-end items-start">
+                <section className="flex justify-start md:justify-end items-center">
                     <Image
                         src="/roskildekommune.svg"
                         alt="Roskilde Kommune"
-                        width={200}
+                        width={300}
                         height={80}
                         className="object-contain"
                     />

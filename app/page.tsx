@@ -1,14 +1,15 @@
 import Footer from "./components/footer"
 import Navbar from "./components/nav"
 import Slider from "./components/slider"
+import Image from "next/image"
 
 export default function Home() {
     return (
         <>
-            <header className="w-full bg-white/80 backdrop-blur-sm border-b border-primary/10 sticky top-0 z-50">
+            <header className="bg-white/80 backdrop-blur-sm border-b border-primary/10 fixed w-full top-0 z-10">
                 <Navbar />
             </header>
-            <main className="min-h-screen w-full bg-background bg-[radial-gradient(#a8a29e_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_80%_80%_at_50%_70%,#000_60%,transparent_100%)] flex items-center justify-center px-4 py-16">
+            <main className="min-h-screen w-full bg-background flex flex-col items-center justify-center px-4 py-16 space-y-16">
                 <Slider />
             </main>
             <footer className="w-full bg-black/10 border-t border-primary/10">

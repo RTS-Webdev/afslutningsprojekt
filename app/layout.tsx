@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Montserrat, Aleo } from "next/font/google";
+import { Aleo } from "next/font/google";
 import "./globals.css";
 
 const aleoFont = Aleo({
-    weight: "400",
+    weight: "500",
     subsets: ['latin'],
 })
 

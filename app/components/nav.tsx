@@ -17,7 +17,7 @@ export default function Navbar() {
         <nav className="container flex items-center justify-between p-4 md:p-6">
             <Link href="/" className="relative z-50 md:p-8">
                 <Image
-                    src="/logo.png"
+                    src="/byenshus.png"
                     alt="Byens Hus Logo"
                     width={200}
                     height={100}
@@ -52,8 +52,8 @@ export default function Navbar() {
             {/* Mobile Menu Dropdown */}
             <div
                 id="mobile-menu"
-                className={`fixed right-0 top-0 min-h-screen w-full transition-transform duration-300 ease-in-out ${isMenuOpen ? "translate-x-0" : "translate-x-full"
-                    } md:hidden bg-white/95 backdrop-blur-sm`}
+                className={`absolute right-0 top-0 min-h-screen w-full transition-transform duration-300 ease-in-out ${isMenuOpen ? "translate-x-0" : "translate-x-full"
+            } md:hidden bg-white backdrop-blur-sm`}
             >
                 <nav className="flex flex-col justify-between h-full" aria-label="Mobile navigation">
                     <div className="flex flex-col pt-24 px-6">
