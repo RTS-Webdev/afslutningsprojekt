@@ -20,7 +20,7 @@ export default function Home() {
                 <section className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Lånebetingelser, lokaler i Byens hus
                             </h2>
@@ -32,7 +32,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Hvårnår får du svar? Svartid på bookinganmodninger
                             </h2>
@@ -43,7 +43,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Ad-hoc bookinger
                             </h2>
@@ -56,7 +56,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Byens hus lokaler
                             </h2>
@@ -68,7 +68,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Placering af Byens hus lokaler
                             </h2>
@@ -80,7 +80,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Synliggør din arrangement
                             </h2>

@@ -18,7 +18,7 @@ export default function Home() {
                 <section className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Dit moderne medborgerhus
                             </h2>
@@ -31,7 +31,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Et godt sted og starte og et trygt sted og teste
                             </h2>
@@ -42,20 +42,20 @@ export default function Home() {
                     </div>
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Bygningerne i Byens hus
                             </h2>
                         </div>
                         <p className="text-base md:text-lg mb-12 max-w-3xl">
-                            Byens "hus" er faktisk to huse lige midt på Stændertorvet i Roskildes historiske bymidte. Det er både den gamle rådhusbygning og den gamle hospitalsbygning. Sammenlagt ca. 3.000 m2.
+                            Byens &quot;hus&quot; er faktisk to huse lige midt på Stændertorvet i Roskildes historiske bymidte. Det er både den gamle rådhusbygning og den gamle hospitalsbygning. Sammenlagt ca. 3.000 m2.
                             <br /><br />
                             De mange m2 fordeler sig på en række vidt forskellige lokaler. Det mindste er Mellemrummet på ca. 12 m2, hvor der kun er et bord og 6 stole. Det største er Den Gamle Byrådssal med 135 år gammelt bevaringsværdigt interiør.
                         </p>
                     </div>
                     <div className="space-y-4">
                         <div className="flex items-center">
-                            <Circle size={24} children className="mr-4" />
+                            <Circle size={24} className="mr-4" />
                             <h2 className="text-xl md:text-2xl font-bold">
                                 Udviklingen af Byens hus Roskilde. Den politiske vision
                             </h2>

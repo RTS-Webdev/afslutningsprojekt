@@ -1,6 +1,6 @@
 type CircleProps = {
     size: number;
-    children: React.ReactNode;
+    children?: React.ReactNode;
     className?: string;
 }
 

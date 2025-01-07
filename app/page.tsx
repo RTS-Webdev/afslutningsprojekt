@@ -1,7 +1,6 @@
 import Footer from "./components/footer"
 import Navbar from "./components/nav"
 import Slider from "./components/slider"
-import Image from "next/image"
 
 export default function Home() {
     return (
