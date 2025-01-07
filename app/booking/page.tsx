@@ -11,7 +11,7 @@ export default function Home() {
             </header>
             <main className="min-h-screen w-full bg-background flex flex-col items-start justify-center pt-32 md:pt-64 px-4 md:px-8">
                 <section className="py-16 justify-center flex flex-col items-center max-w-7xl mx-auto">
-                    <h1 className="text-4xl md:text-7xl font-bold mb-8">Lån et lokale i Byens hus</h1>
+                    <h1 className="text-4xl md:text-7xl font-bold mb-8 text-center">Lån et lokale i Byens hus</h1>
                     <p className="text-base md:text-lg mb-12 max-w-3xl text-center">
                         Du kan låne lokaler i Byens hus til almennyttige formål og afprøvning af ideer. Her kan du læse mere om booking af lokaler og om lokalerne i Byens hus.
                     </p>

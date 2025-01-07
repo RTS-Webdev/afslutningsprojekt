@@ -8,7 +8,7 @@ export default function Home() {
                 <Navbar />
             </header>
             <main className="min-h-screen w-full bg-background flex flex-col justify-center pt-32 px-8">
-                <h1 className="text-7xl font-bold mb-8">Åbningstider og kontakt information</h1>
+                <h1 className="text-4xl font-bold mb-8">Åbningstider og kontakt information</h1>
                 <p className="text-lg mb-12">Find information om åbningstider og kontaktoplysninger nedenfor.</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
