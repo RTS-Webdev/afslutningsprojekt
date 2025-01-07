@@ -60,29 +60,29 @@ export default function Home() {
                                 Udviklingen af Byens hus Roskilde. Den politiske vision
                             </h2>
                         </div>
-                        <p className="text-base md:text-lg mb-12 max-w-3xl">
+                        <p className="text-base md:text-lg mb-4 max-w-3xl">
                             Ideen om et Byens hus i Roskilde startede med Byrådets beslutning om, at udlåne den tidligere byrådssal til kulturelle, almennyttige og foreningsformål. Det var den 26. juni 2013. Siden har der været en grundig proces med en stor grad af borgerinddragelse. Resultatet blev en vision for Byens hus (både det tidligere Rådhus og det tidligere Duebrødre Hospital), der blev vedtaget politisk den 22. oktober 2014. Visionen beskriver at Byens hus skal være:
-                            <ul className="list-disc ml-4 mb-2 text-base space-y-1 py-4">
-                                <li>Et permanent folkemøde</li>
-                                <li>En forpost for alle aktører</li>
-                                <li>En katalysator for byliv</li>
-                                <li>Et sted for studerende</li>
-                            </ul>
                         </p>
+                        <ul className="list-disc ml-4 mb-2 text-base">
+                            <li>Et permanent folkemøde</li>
+                            <li>En forpost for alle aktører</li>
+                            <li>En katalysator for byliv</li>
+                            <li>Et sted for studerende</li>
+                        </ul>
                     </div>
                     <div className="space-y-4">
-                        <p className="text-base md:text-lg mb-12 max-w-3xl">
+                        <p className="text-base md:text-lg max-w-3xl">
                             Byens hus er et godt sted at starte & et trygt sted at teste.
                             <br /><br />
                             Et kommunalt demokratihus med lokaler til initiativer og almennyttige formål. Et sted for forsamlinger og samtaler, om små og store spørgsmål.
                             <br /><br />
                             <strong>Principperne i Byens hus er:</strong>
-                            <ul className="list-disc ml-4 mb-2 text-base space-y-1 py-4">
-                                <li>For Alle</li>
-                                <li>Fælles Ansvar</li>
-                                <li>Bare Spørg</li>
-                            </ul>
                         </p>
+                        <ul className="list-disc ml-4 mb-2 text-base">
+                            <li>For Alle</li>
+                            <li>Fælles Ansvar</li>
+                            <li>Bare Spørg</li>
+                        </ul>
                     </div>
                 </section>
             </main>
