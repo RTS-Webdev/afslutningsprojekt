@@ -7,7 +7,7 @@ export default function Home() {
             <header className="bg-white/80 backdrop-blur-sm border-b border-primary/10 fixed w-full top-0 z-10">
                 <Navbar />
             </header>
-            <main className="min-h-screen w-full bg-background flex flex-col justify-center pt-32 px-8">
+            <main className="min-h-screen w-full bg-background flex flex-col items-start justify-center pt-32 md:pt-64 px-4 md:px-8">
                 <h1 className="text-4xl font-bold mb-8">Åbningstider og kontakt information</h1>
                 <p className="text-lg mb-12">Find information om åbningstider og kontaktoplysninger nedenfor.</p>
 
